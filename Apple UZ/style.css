@@ -1,0 +1,410 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 22, 23);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 243);
+    color: rgb(79, 79, 79);
+    font-size: 13px;
+}
+
+.info {
+    height: 45px;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+nav{
+    height: 45px;
+    /* position: fixed; */     /*  ???????  */
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+}
+
+.card {
+    width: 100%;
+    height: 640px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-top: 45px;
+    margin-bottom: 15px;
+}
+
+.card h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+    color: rgb(245, 245, 247);
+}
+
+.card3 p {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.card button {
+    width: 135px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(0, 114, 228);
+    border: none;
+    color: rgb(245, 245, 247);
+    font-size: 16px;
+}
+
+.card1 {
+    background-image: url(img/iphone_16_pro.jpg);
+}
+
+.card2 {
+    background-image: url(img/iphone_16.jpg);
+}
+
+.card2 button {
+    background-color: rgb(245, 245, 247);
+    color: black;
+}
+
+.card3 {
+    background-image: url(img/ipad_mini.jpg);
+}
+
+.card3 h1 {
+    color: black;
+}
+
+.duo-card1 {
+    display: flex;
+    justify-content: center; /* по центру по горизонтали */
+    align-items: flex-start; /* выравнивание по верхнему краю */
+    gap: 15px; /* отступ между блоками */
+    padding: 0px 15px 15px 15px;
+}
+
+.duo-card2 {
+    display: flex;
+    justify-content: center; /* по центру по горизонтали */
+    align-items: flex-start; /* выравнивание по верхнему краю */
+    gap: 15px; /* отступ между блоками */
+    padding: 0px 15px 15px 15px;
+}
+
+.duo-card3 {
+    display: flex;
+    justify-content: center; /* по центру по горизонтали */
+    align-items: flex-start; /* выравнивание по верхнему краю */
+    gap: 15px; /* отступ между блоками */
+    padding: 0px 15px 15px 15px;
+}
+
+.duo {
+    width: 824px;
+    height: 580px;
+    text-align: center;
+}
+
+.duo button {
+    width: 108px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: rgb(0, 114, 228);
+    border: none;
+    color: rgb(245, 245, 247);
+    font-size: 12px;
+}
+
+.duo1 {
+    background-image: url(img/apple_watch_series_10.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(22, 22, 23);
+}
+
+.duo1 h1{
+    padding-top: 65px;
+}
+
+.duo1 h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.duo1 p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.duo1 button{
+    margin-top: 20px;
+}
+
+.duo2 {
+    background-image: url(img/apple_watch_ultra_2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 245, 247);
+} 
+
+.duo2 h1{
+    padding-top: 65px;
+}
+
+.duo2 h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.duo2 p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.duo2 button{
+    margin-top: 20px;
+}
+
+.duo3 {
+    background-image: url(img/airpods_4.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 245, 247);
+}
+
+.duo3 h1{
+    padding-top: 65px;
+}
+
+.duo3 h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.duo3 p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.duo3 button{
+    margin-top: 20px;
+}
+
+.duo4 {
+    background-image: url(img/airpodsmax.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(22, 22, 23);
+}
+
+.duo4 h1{
+    padding-top: 65px;
+}
+
+.duo4 h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.duo4 p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.duo4 button{
+    margin-top: 20px;
+}
+
+.duo5 {
+    background-image: url(img/apple_watch_se.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(22, 22, 23);
+}
+
+.duo5 h1{
+    padding-top: 65px;
+}
+
+.duo5 h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.duo5 p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.duo5 button{
+    margin-top: 20px;
+}
+
+.duo6 {
+    background-image: url(img/ipadpro.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 245, 247);
+}
+
+.duo6 h1{
+    padding-top: 65px;
+}
+
+.duo6 h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.duo6 p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.duo6 button{
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #f5f5f7;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    color: #333;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .footer-content .disclaimer {
+    color: #666;
+    font-size: 13px;
+  }
+  
+  .footer-content hr {
+    border: none;
+    border-top: 1px solid #d2d2d7;
+    margin: 20px 0;
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 160px;
+  }
+  
+  .footer-column h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 6px;
+  }
+  
+  .footer-column a {
+    color: #555;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .find-retailer {
+    font-size: 13px;
+    color: #666;
+  }
+  
+  .find-retailer a {
+    /* text-decoration: none; */
+    color: #0071e3;
+  }
+  
+  .find-retailer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  
+  .footer-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .footer-inline p,
+  .footer-inline .bottom-links {
+    margin: 0;
+  }
+  
+  .footer-inline .bottom-links a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-inline .bottom-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-inline .region {
+    color: #666;
+  }  
+  
+  @media (max-width: 768px) {
+    .footer-columns {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .footer-bottom {
+      font-size: 11px;
+    }
+  }
+  
