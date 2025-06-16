@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #fff;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 1680px;
+    height: 85px;
+    background-color: rgb(255,255,255);
+    border: 1px solid red;
+    align-items: center;
+}
+
+.navigation-right {
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 865px;
+    height: 85px;
+    /* gap: 20px; */
+}
+
+.navigation-right a{
+    text-decoration: none;
+    color: rgb(171,171,171);
+    font-size: 18px;
+}
+
+.navigation-right a:hover {
+    color: black;
+
+}
+
+.navigation-right .location {
+    margin-left: 200px;
+}   
+
+.main-content {
+    background-image: url(https://www.bmw.uz/content/dam/bmw/common/all-models/x-series/x6/2023/highlights/bmw-x-series-x6-sp-desktop.jpg.asset.1730792075671.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1680px;
+    height: 760px;
+}
