@@ -7,46 +7,131 @@
 body {
     color: #fff;
 }
-
-.navigation {
+.main-navigation {
     display: flex;
     justify-content: center;
-    width: 1680px;
-    height: 85px;
-    background-color: rgb(255,255,255);
-    border: 1px solid red;
-    align-items: center;
 }
 
-.navigation-right {
-    border: 1px solid red;
+.main-navigation-nav {
+    width: 90%;
+    height: 84px;
+    /* border: 1px solid red; */
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
-    width: 865px;
-    height: 85px;
-    /* gap: 20px; */
+    justify-content: center;
+    align-items: center;
 }
 
-.navigation-right a{
+.main-navigation .main-navigation-nav .main-navigation-nav-a {
+    width: 52px;
+    height: 52px;
+    margin-right: 24px;
+    /* border: 1px solid red; */
+}
+
+.main-navigation .main-navigation-nav .main-navigation-nav-a img {
+    width: 52px;
+    height: 52px;
+}
+
+.main-navigation-left-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84px;
+    /* border: 1px solid red; */
+    margin-right: 850px;
+}
+
+.main-navigation-left-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176.39px;
+    height: 84px;
+    /* border: 1px solid red; */
+}
+
+.main-navigation-left-menu li a {
     text-decoration: none;
-    color: rgb(171,171,171);
-    font-size: 18px;
-}
-
-.navigation-right a:hover {
     color: black;
-
+    font-size: 16px;
 }
 
-.navigation-right .location {
-    margin-left: 200px;
-}   
+.main-navigation-left-menu li:hover {
+    border-bottom: 6px solid blue;
+}
+
+.main-navigation-left-menu li button {
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    color: black;
+}
+
+.main-navigation-right-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84px;
+    /* border: 1px solid red; */
+}
+
+.main-navigation-right-menu:hover {
+    border-bottom: 6px solid blue;
+}
+
+.main-navigation-right-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 15px;
+    /* border: 1px solid red; */
+}
 
 .main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-img {
     background-image: url(https://www.bmw.uz/content/dam/bmw/common/all-models/x-series/x6/2023/highlights/bmw-x-series-x6-sp-desktop.jpg.asset.1730792075671.jpg);
     background-size: cover;
     background-position: center;
-    width: 1680px;
+    width: 90%;
     height: 760px;
+}
+
+.main-content .content-1 {
+    padding-top: 145px;
+    padding-left: 85px;
+    /* border: 1px solid red; */
+}
+
+.main-content .content-1 h3 {
+    margin-top: 30px;
+}
+
+.main-content .content-23 {
+    display: flex;
+    padding-top: 450px;
+    padding-left: 85px;
+    /* border: 1px solid red; */
+}
+
+.main-content .content-3 {
+    /* border: 1px solid red; */
+    padding-left: 100px;
+}
+
+.main-content .content {
+    padding-top: 40px;
+    width: 70%;
+    height: 760px;
+    border: 1px solid red;
+    
+}
+
+.main-content .content p {
+    font-size: 16px;
 }
